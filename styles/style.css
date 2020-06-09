@@ -1,0 +1,192 @@
+html, body {
+  height:100%;
+  min-height:100%;
+  max-height:100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+  overflow: hidden;
+  background: url(../images/background.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.imgguy {   
+  position: absolute;
+  width: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+.galgjebody p {
+  margin-left: 5em;
+  min-width: 150%;
+  margin-right: 0;
+}
+
+.galgjebody {
+  display: flex;
+  flex-direction: row;
+}
+
+.hp {
+  position: absolute;
+  right: 15%;
+  font-size: 1.3em;
+  margin-right: 10%;
+  margin-top: 6%;
+}
+
+progress {
+  position: absolute;
+  width: 20%;
+  height: 4%;
+  right: 0;
+  margin-top: 10%;
+  margin-right: 15%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+progress {
+  color: lightblue;
+}
+  
+progress::-moz-progress-value {
+  background: lightgreen;
+}
+
+progress::-moz-progress-bar {
+  background: grey;
+}
+
+progress::-webkit-progress-value {
+  background:  lightgreen;
+}
+
+progress::-webkit-progress-bar {
+  background: grey;
+}
+
+.ptemp {
+  font-size: 1.6em;
+  color: red;
+  min-height: 1.6em;
+}
+
+.p1 {
+  font-size: 1.5em;
+  margin-top:2em;
+}
+
+.p2 {
+  letter-spacing: 0.7em;
+  font-size: 1.6em;
+  margin-bottom: 3em;
+}
+
+.p3 {
+  font-size: 1.5em;
+}
+
+.p4 {
+  margin-top: -0.5em;
+  letter-spacing: 0.5em;
+  font-size: 1.9em;
+}
+
+/* index.html */
+
+.indexbody {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.indexbody h1 {
+  font-size: 1.8em;
+  margin-top: -2em;
+}
+
+.play {
+  text-decoration: none;
+  margin-top: 4em;
+  background-color: crimson;
+  color: white;
+  font-size: 1.7em;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  padding: 0.3em 2.5em;
+}
+
+.play:hover {
+  background-color:rgb(235, 45, 83);
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.play:active {
+  background-color: firebrick;
+}
+
+.icon {
+  margin-top: 4em;
+  width: 35%;
+}
+
+/* lost page */
+
+.h1l {
+  font-size: 2em;
+}
+
+.playl {
+  text-decoration: none;
+  margin-top: 4em;
+  background-color: crimson;
+  color: white;
+  font-size: 1em;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  padding: 0.2em 2em;
+}
+
+.playl:hover {
+  background-color:rgb(235, 45, 83);
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.playl:active {
+  background-color: firebrick;
+}
+
+.divl {
+  margin-top: 3em;
+  text-align: center;
+  width: 100%;
+}
+
+.imgf {
+  width: 30%;
+}
+
+/* winpage.html */
+
+.winbody {
+  top: 5em;
+}
+
+.winbody div {
+  text-align: center;
+}
+
+.winbody div p {
+  font-size: 2.5em;
+  margin-top: 4em;
+}
+
+
+
+
+
+
